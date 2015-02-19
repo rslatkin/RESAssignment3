@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  RESAssignment3
 //
-//  Created by Robert Slatkin on 2/19/15.
+//  Created by Robert Slatkin on 2/12/15.
 //  Copyright (c) 2015 Robert Slatkin. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    ViewController *webBrowserVC = [[ViewController alloc] init];
+    self.window.rootViewController = webBrowserVC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

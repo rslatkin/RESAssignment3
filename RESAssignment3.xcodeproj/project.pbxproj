@@ -12,6 +12,8 @@
 		A345A0831A966EB700018842 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A345A0821A966EB700018842 /* Images.xcassets */; };
 		A345A0861A966EB700018842 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345A0841A966EB700018842 /* LaunchScreen.xib */; };
 		A345A0921A966EB700018842 /* RESAssignment3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A345A0911A966EB700018842 /* RESAssignment3Tests.m */; };
+		A345A09E1A966EE700018842 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A345A09C1A966EE700018842 /* ViewController.m */; };
+		A345A09F1A966EE700018842 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A345A09D1A966EE700018842 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		A345A08B1A966EB700018842 /* RESAssignment3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RESAssignment3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A345A0901A966EB700018842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A345A0911A966EB700018842 /* RESAssignment3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESAssignment3Tests.m; sourceTree = "<group>"; };
+		A345A09B1A966EE700018842 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../../Desktop/RESAssignment3-master/ViewController.h"; sourceTree = "<group>"; };
+		A345A09C1A966EE700018842 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../../Desktop/RESAssignment3-master/ViewController.m"; sourceTree = "<group>"; };
+		A345A09D1A966EE700018842 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = "../../../../../Desktop/RESAssignment3-master/ViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				A345A07F1A966EB700018842 /* AppDelegate.h */,
 				A345A0801A966EB700018842 /* AppDelegate.m */,
+				A345A09B1A966EE700018842 /* ViewController.h */,
+				A345A09C1A966EE700018842 /* ViewController.m */,
+				A345A09D1A966EE700018842 /* ViewController.xib */,
 				A345A0821A966EB700018842 /* Images.xcassets */,
 				A345A0841A966EB700018842 /* LaunchScreen.xib */,
 				A345A07B1A966EB700018842 /* Supporting Files */,
@@ -192,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A345A0861A966EB700018842 /* LaunchScreen.xib in Resources */,
+				A345A09F1A966EE700018842 /* ViewController.xib in Resources */,
 				A345A0831A966EB700018842 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A345A09E1A966EE700018842 /* ViewController.m in Sources */,
 				A345A0811A966EB700018842 /* AppDelegate.m in Sources */,
 				A345A07E1A966EB700018842 /* main.m in Sources */,
 			);
