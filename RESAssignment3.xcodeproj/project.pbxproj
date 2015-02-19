@@ -38,8 +38,8 @@
 		A345A0901A966EB700018842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A345A0911A966EB700018842 /* RESAssignment3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RESAssignment3Tests.m; sourceTree = "<group>"; };
 		A345A09B1A966EE700018842 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../../Desktop/RESAssignment3-master/ViewController.h"; sourceTree = "<group>"; };
-		A345A09C1A966EE700018842 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../../Desktop/RESAssignment3-master/ViewController.m"; sourceTree = "<group>"; };
-		A345A09D1A966EE700018842 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = "../../../../../Desktop/RESAssignment3-master/ViewController.xib"; sourceTree = "<group>"; };
+		A345A09C1A966EE700018842 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		A345A09D1A966EE700018842 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -404,6 +404,7 @@
 				A345A0971A966EB700018842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A345A0981A966EB700018842 /* Build configuration list for PBXNativeTarget "RESAssignment3Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +413,7 @@
 				A345A09A1A966EB700018842 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
